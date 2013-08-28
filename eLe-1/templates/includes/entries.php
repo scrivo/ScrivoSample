@@ -28,8 +28,11 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
+
+use \Scrivo\Page;
+
 ?>
-<div id="entries">
+		<div id="entries">
 			<div class="center_clear">
 				<div>
 					<div style="background-image: url(<?php echo $page->path[0]->properties->imgBlock1->src?>)">
@@ -39,7 +42,8 @@
 						<h3><a href="index.php?p=<?php echo $ctx->labels->ACTIVITEITEN?>"><?php 
 							echo $page->path[0]->properties->titleBlock2->value?></a></h3></div>
 					<div style="background-image: url(<?php echo $page->path[0]->properties->imgBlock3->src?>)">
-						<h3><a href="index.php?p=<?php echo $ctx->labels->TETERIA?>"><?php 
+						<h3><a href="index.php?p=<?php 
+							echo Page::fetch($ctx, $ctx->labels->TETERIA)->navigableChildren[0]->id?>"><?php 
 							echo $page->path[0]->properties->titleBlock3->value?></a></h3></div>
 				</div>
 			</div>
