@@ -1,0 +1,118 @@
+/* Copyright (c) 
+ * - 2012, Geert Bergman (geert@scrivo.nl)
+ * - 2012, Michiel Meerdink (michiel@yardinternet.nl)
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ * 3. Neither the name of "Scrivo" nor the names of its contributors may be
+ *    used to endorse or promote products derived from this software without
+ *    specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+/**
+ * Additional styles for eLe home page, augments common.css.
+ */
+ 
+#home {
+	min-width: 1020px;
+}
+
+#home #leader {
+	height: 388px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+}
+
+#home #leader #googlemap {
+	height: 388px;
+	width: 1000px;
+}
+
+#home #leader .text {
+	margin-top: 314px;
+	height: 37px;
+	color: white;
+	overflow: hidden;
+	font-family: "Times New Roman", Roman, Times, serif;
+	font-style: italic;
+	font-size: 28px;
+	padding-top: 2px;
+	padding-left: 16px;
+	background-image: url(../img/1px_geel.png);
+}
+
+#home #entries {
+	height: 284px;
+	position: relative;
+	margin-left: -20px;
+	margin-bottom: 28px;
+}
+
+#home #entries .entry {
+	width: 320px;
+	height: 284px;
+	float: left;
+	margin-left: 20px;
+	background-color: #6e0001;
+}
+
+#home #entries .entry  h3 {
+	font-family: "Times New Roman", Roman, Times, serif;
+	color: #cfceca;
+	font-weight: normal;
+	font-size: 23px;
+	margin-top: 10px;
+	margin-left: 17px; 
+	
+}
+
+#entries a {
+	color: #cfceca;
+	text-decoration: none;
+}
+
+#entries a:hover {
+	text-decoration: none;
+}
+
+
+#home #entries div  p {
+	font-size: 12px;
+	line-height: 18px;
+	color:white;
+	margin: 7px 17px; 
+}
+
+.entry div#ele_reservation {
+	float:none;
+	width:auto;
+	margin-top: 0px;
+}
+.entry div.ele_reservation_body {
+	float: none;
+	width: auto;
+}
+.entry div#ele_wrapper {
+	float: none;
+}

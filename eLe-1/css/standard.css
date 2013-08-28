@@ -1,0 +1,242 @@
+/* Copyright (c) 
+ * - 2012, Geert Bergman (geert@scrivo.nl)
+ * - 2012, Michiel Meerdink (michiel@yardinternet.nl)
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ * 3. Neither the name of "Scrivo" nor the names of its contributors may be
+ *    used to endorse or promote products derived from this software without
+ *    specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+/**
+ * Standard styles for eLe web site, augments common.css.
+ */
+
+#body {
+	min-width: 1020px;
+}
+#path {
+	width: 1000px;
+	height: 39px;
+	background-color: #6e0001;
+}
+#still {
+	width: 1000px;
+	height: 253px;
+}
+#submenu, #content, #teasers {
+	float: left;
+}
+
+#submenu {
+	width: 214px;
+}
+#submenu h2 {
+	position: absolute:
+	z-index: 10000;
+	width: 202px;
+	height: 38px;
+	margin-top: -40px;
+	color: white;
+	overflow: hidden;
+	font-family: "Times New Roman", Roman, Times, serif;
+	font-style: italic;
+	font-size: 26px;
+	padding-top: 3px;
+	padding-left: 12px;
+	background-image: url(../img/1px_geel.png);
+	color: #e8ddd9;
+}
+
+#body .bgmenu {
+	background-color: #6e0001;
+	background-image: url(../img/bg_menu.gif);
+	background-repeat: repeat-y;
+}
+
+#submenu ul {
+}
+
+#submenu li {
+	width: 186px;
+	font-family: "Times New Roman", Roman, Times, serif;
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 7px;
+	padding-bottom: 4px;
+	padding-left: 23px;
+	padding-right: 5px;
+	margin-bottom: 1px;
+	color: #e8ddd9;
+	background-color: #4e0000;
+	list-style: none;
+}
+#submenu ul li.sel {
+	color: #faca00;
+}
+
+#submenu li a {
+	color: #e8ddd9;
+}
+
+#content {
+	width: 524px;
+	
+}
+#teasers {
+	width: 194px;
+	margin-bottom: 15px;
+}
+
+.teaser h2 {
+	background-color: #4e0000;
+	margin: -12px -12px 12px -12px;
+	padding: 5px 12px;
+	font-family: "Times New Roman", Roman, Times, serif;
+	color: #f9fffb; 
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+}
+.teaser {
+	margin-top: 18px;
+	background-color: #5e0000;
+	padding: 12px;
+	color: #f9fffb; 
+	font-size: 13px;
+}
+.teaser ul {
+	list-style-type:none;
+}
+
+
+#entries {
+	min-width: 1020px;
+	margin-top: 20px;
+}
+#entries div div {
+	height: 112px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 28px;
+	margin-left: -20px;
+}
+
+#entries div div div {
+	width: 320px;
+	height: 112px;
+	float: left;
+	margin-left:20px;
+}
+
+#entries div div div h3 {
+	margin-top: 56px;
+	color: white;
+	overflow: hidden;
+	font-family: "Times New Roman", Roman, Times, serif;
+	font-weight: normal;
+	font-size: 23px;
+	padding-top: 6px;
+	padding-bottom: 4px;
+	padding-left: 16px;
+	background-image: url(../img/1px_geel.png);
+}
+
+#entries div div div h3 a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Basic styles for the content */
+.content {
+	padding: 25px;
+	padding-top: 5px;
+	font-size: 13px;
+	line-height: 20px;
+	color: #e2dcb8;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+	font-family: "Times New Roman", Roman, Times, serif;
+	color: #f9fffb; 
+	font-style: italic;
+}
+
+.content h1 {
+	font-size: 215%;
+	line-height: 100%;
+	font-weight: normal;
+	margin-top: 2ex;
+	margin-bottom: 1ex;
+}
+.content h2 {
+	font-size: 150%;
+	font-weight: normal;
+	margin-top: 2ex;
+	margin-bottom: 1ex;
+}
+.content h3 {
+	font-size: 120%;
+	font-weight: normal;
+	margin-top: 2ex;
+	margin-bottom: 1ex;
+}
+.content h4 {
+	font-size: 100%;
+	font-weight: normal;
+	margin-top: 2ex;
+	margin-bottom: .5ex;
+}
+.content h5 {
+	font-size: 100%;
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 2ex;
+	margin-bottom: .5ex;
+}
+.content p, .content ul, .content ol {
+	margin-bottom: 1ex;
+}
+.content ul, .content ol {
+	list-style-image: url(../img/bullit.png);
+	margin-left: 20px;
+}
+
+.menu span {
+	float:left;
+}
+.menu span.right {
+	float:right;
+	font-style: italic;
+}
+.menu .dutch {
+	clear:both;
+	color: #F9FFFB;
+	padding-left: 2em;
+	margin-bottom: 1ex;
+}
+
+

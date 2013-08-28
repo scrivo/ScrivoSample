@@ -1,0 +1,245 @@
+div.jsCalendar,
+div#jsCalendar {
+	font-family: Arial,Helvetica,sans-serif;
+	border: 2px solid #336699;
+	float:left;
+	position:relative;
+	z-index: 99999999;
+	width:182px;
+	display:none;
+	left: 0;
+	top: 0px;
+}
+
+table#calendar tr#jsCalendar-links {
+	background-color:#94bde3;
+	color: #FFFFFF;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	width: 182px;
+}
+
+table#calendar tr#jsCalendar-links td {
+	background-color:#94bde3;
+	border:none;
+	border-bottom:1px #ffffff solid;
+}
+
+table#calendar tr#jsCalendar-links td#month {
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	border-left:none;
+	border-right:none;
+	width: 130px;
+}
+
+table#calendar tr#jsCalendar-links a.left {
+	background-image: url("../img/month_left.png");
+	text-decoration:none;
+	width:18px;
+	height:25px;
+	float:left;
+	padding: 0;
+}
+
+table#calendar tr#jsCalendar-links a.right {
+	background-image: url("../img/month_right.png");
+	text-decoration:none;
+	width:18px;
+	height:25px;
+	float:right;
+	padding: 0;
+}
+
+table#calendar tr#days td {
+	background: none repeat scroll 0 0 #EAF2FA;
+	border: medium none;
+	color: #97C0E6;
+	font-size: 11px;
+	font-weight:bold;
+	height: 25px;
+	text-transform: lowercase;
+}
+
+table#calendar tr td {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+	font-size: 11px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0;
+	text-align: center;
+	width: 25px;
+}
+
+table#calendar tr td.inactive {
+	color:#CCCCCC;
+}
+
+table#calendar tr td.active a {
+	color: #336699 !important;
+	font-weight:bold;
+	text-decoration:none;
+	width:100%;
+	height:100%;
+	float:left;
+}
+
+table#calendar tr td.selected {
+	background-color: #b0d36f;
+	color:#FFFFFF !important;
+	font-weight:bold;
+}
+
+table#calendar tr td.selected a {
+	color:#FFFFFF !important;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+table#calendar tr td.editval a {
+	background:url("../img/edit-selected.gif") no-repeat scroll 0 0 transparent;
+	color: #336699 !important;
+}
+
+div#ele_reservation {
+	color:#333333;
+	float:left;
+	width:239px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top: 18px;
+}
+
+div.ele_reservation_body {
+	float: left;
+	height: auto;
+	text-align: center;
+	background-color:#ffffff;
+	padding: 0px;
+	border-left: none;
+	border-right: none;
+	width: 194px;
+}
+
+div#ele_wrapper {
+	float: left;
+	width: 100%;
+}
+
+div#ele_wrapper {
+	float: left;
+	width: 100%;
+}
+
+div#ele_form_wrapper {
+	float: left;
+	width: 100%;
+	background-color: #4e0000;
+}
+
+h1.ele_header {
+	line-height:25px;
+	background-color: #4E0000;
+	color: #F9FFFB;
+	font-family: "Times New Roman",Roman,Times,serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0px;
+	padding: 5px 1px;
+}
+
+div.ele_box_wrapper {
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	border-bottom: none;
+	border-top: none;
+}
+
+div.ele_gray_box {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #5e0000;
+}
+
+h2.ele_restaurant_name {
+	margin-top:15px;
+	font-weight: bold;
+	margin-bottom:0;
+	color: #faca00;
+	font-family: "Times New Roman",Roman,Times,serif;
+	font-size: 20px;
+}
+
+h3.ele_restaurant_city {
+	margin-top:0;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom: 17px;
+	color: #f9fffb 
+}
+
+div#ele_search_box {
+	padding-top: 12px;
+	float:left;
+	width: 100%;
+}
+
+div#ele_search_box div.ele_box_row {
+	width:100%;
+	height:25px;
+	float:left;
+	margin-bottom:12px;
+}
+
+div#ele_search_box div.ele_box_row.ele_date_row {
+	position:relative;
+}
+
+div.ele_box_row div.ele_row_title {
+	float:left;
+	line-height:22px;
+	height:22px;
+	margin-right:10px;
+	font-size:12px;
+	text-align:right;
+	font-weight: normal;
+	width: 60px;
+	color: #e2dcb8;
+}
+
+div.ele_box_row div.ele_row_value {
+	float: left;
+	position:relative;
+	height:22px;
+	width: 100px;
+}
+
+div.ele_box_row div.ele_row_value input,
+div.ele_box_row div.ele_row_value select {
+	width:100px;
+	color:#326496;
+	float:left;
+	padding: 2px 2px 2px 5px;
+}
+
+div.ele_box_row div.ele_row_value input {
+	cursor:text;
+}
+
+div#ele_form_wrapper div#ele_submit_wrapper {
+	float:left;
+	width:100%;
+	height:30px;
+	margin-top:5px;
+	margin-bottom:15px;
+}
+
